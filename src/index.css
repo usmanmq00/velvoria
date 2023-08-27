@@ -1,0 +1,247 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Add custom styles below */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1d1d1d;
+    font-weight: 500;
+    font-family: 'Assistant', sans-serif;
+}
+
+.search{
+    border: 1px solid #1d1d1d;
+}
+
+.search:hover{
+    border: 2px solid #1d1d1d;
+}
+
+.searchfield{
+    width: 478px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    height: 550px;
+}
+
+.banner-img{
+    height: 550px;
+}
+
+.quality1{
+    width: 0.05vw;
+    height: 384px;
+    background: #aaaaaa ;
+}
+
+.quality2{
+    width: 0.05vw;
+    height: 384px;
+    background: #aaaaaa ;
+}
+
+.about1{
+    width: 33%;
+}
+
+.about2{
+    width: 67%;
+}
+
+.about3{
+    width: 100%;
+}
+
+.footer{
+    height: 100vh;
+    font-family: Assistan, sans-serif;
+    background: rgb(29,29,29);
+}
+
+.footer-title{
+    width: 380px;
+    line-height: 54px;
+}
+
+.footer-field{
+    color: rgb(46, 45, 45);
+    width: 850px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    border-bottom: 1px solid gray;
+}
+
+.foot-field{
+    font-size: 40px;
+    background: rgb(29,29,29);
+    color: #fff;
+}
+
+.login{
+    height: 509px;
+}
+
+.login-1{
+    width: 478px;
+    margin-left: 520px;
+    margin-right: 520px;
+    height: 509px;
+}
+
+.login-title{
+    width: 448px;
+    line-height: 121px;
+    font-family: Assistant, sans-serif;
+}
+
+.login-body{
+    width: 448px;
+    font-family: Assistant, sans-serif;
+}
+
+.login-field{
+    width: 446px;
+    min-width: 72px;
+    border: 1px solid rgb(18, 18, 18);
+}
+
+.login-field::placeholder{
+    color: rgb(114, 113, 113);
+}
+
+.login-field:hover{
+    border: 2px solid #000;
+}
+
+.form-reset1{
+    color: rgb(114, 113, 113);
+    border-bottom: 1px solid rgb(114, 113, 113);
+    width: 134px;
+}
+
+.form-reset1:hover{
+    border-bottom: 2px solid #000;
+}
+
+.form-reset2{
+    border-bottom: 1px solid rgb(114, 113, 113);
+    width: 90px;
+}
+
+.form-reset2:hover{
+    border-bottom: 2px solid #000;
+}
+
+.register{
+   height: 704px; 
+}
+
+.register-field{
+    width: 446px;
+    min-width: 72px;
+    border: 1px solid rgb(18, 18, 18);
+}
+
+.register-field:hover{
+    border: 2px solid #000;
+}
+
+.reset{
+    height: 571px;
+}
+
+.category{
+    /* height: 714px; */
+    font-family: 'Monument Extended', sans-serif;
+    background: rgb(29, 29, 29);
+}
+
+.category2{
+    width: auto;
+}
+
+.category-title{
+    width: 866px;
+}
+
+.arrow{
+    border: 1px slid black;
+    border-radius: 100%;
+}
+
+.single-category{
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.category-text{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.items{
+    height: 523px;
+    background-color: rgb(247, 246, 242);
+}
+
+.products{
+    background-color: rgb(251, 247, 244);
+}
+
+.product-item{
+    height: 800px;
+}
+
+.singleproduct:hover{
+    .single-product{
+        display: block;
+    }
+}
+
+.single-product{
+    background: rgba(255, 255, 255, 0.6);
+    display: none;
+}
+
+.scroll-content{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.scroll-content::-webkit-scrollbar {
+    width: 0px
+}
+
+.footer-scroll{
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.footer-scroll::-webkit-scrollbar{
+    width: 0px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none; /* Remove default styles for WebKit browsers */
+    -moz-appearance: none; /* Remove default styles for Mozilla browsers */
+    appearance: none; /* Remove default styles for other browsers */
+    width: 15px;
+    height: 15px;
+    border: 1px solid black; /* Set the border color to black */
+    border-radius: 50%; /* Make the border circular */
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  input[type="radio"]:checked {
+    background-color: white; /* Set the background color to black when checked */
+    border: 4px solid black
+  }
+  
